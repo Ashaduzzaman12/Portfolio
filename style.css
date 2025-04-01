@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(51, 50, 50) !important;
+    color: rgb(75, 74, 74);
+
+}
+
+.item {
+    color: rgba(0, 0, 0, 0.636);
+    list-style: none;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.item::after {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.logo {
+    margin: 60px;
+}
+
+.social {
+    font-size: 50px;
+}
+
+.my-photo {
+    width: 320px;
+    height: 400px;
+}
+
+.my-text {
+    color: rgba(0, 0, 0, 0.636);
+}
+
+.project-1 {
+    width: 65%;
+    border: 1px solid black;
+}
+
+.project-title {
+    color: yellowgreen;
+    font-weight: bold;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.project-desc {
+    color: rgb(175, 239, 45);
+    font-size: 22px;
+}
+
+.tech-btn {
+    color: rgb(90, 176, 251);
+    font-size: large bolder;
+    background-color: #6c757d;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    outline: none;
+}
+.education{
+    color: white;
+}
+.edu-title{
+    margin-top: 20%;
+    color: aliceblue;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.contact-form{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px gray;
+    color: #fff;
+}
+.input-item{
+    padding: 14px;
+    margin: 10px;
+   background: none;
+    outline: none;
+    color: #fff;
+}
+.textarea{
+    padding: 34px;
+    margin: 10px;
+   background: none;
+    outline: none;
+}
+.submit-btn{
+    background-color: #84888b;
+    width: 50%;
+    color: rgb(48, 188, 252);
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: #57595a;
+}
+.text-center{
+    color: #84888b;
+}
